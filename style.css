@@ -5,6 +5,143 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+main{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+article{
+    display: flex;
+}
+
+.container{
+    width: 870px;
+    background-color: #FFFFFF;
+    padding: 3em;
+    margin: 2.2em 0em;
+    border-radius: 5px;
+
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin: 1.4em 0em;
+}
+span{
+    color: #9F9F9F;
+}
+strong{
+    color: #FF4A60;
+}
+
+/* top players design */
+nav{
+    width: 1440px;
+    height: 94px;
+    background-color: #562EFF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.title-heading{
+    font-size: 2.4em;
+    color: #562EFF;
+    margin-bottom: 1em;
+}
+.nav-heading{
+    color: #F3F1FF;
+}
+.logo{
+    width: 40.42px;
+    height: 51px;
+    margin-right: 200px;
+}
+.logo-2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.item{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.item ul li{
+    list-style: none;
+}
+.item ul li a{
+    text-decoration: none;
+    color: #F3F1FF;
+    font-size: 15px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.players-name{
+    margin-left: 1em;
+}
+#profile-img{
+    width: 51px;
+    height: 51px;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+
+.blog{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 1.5em;
+}
+.blog-info{
+    margin-left: 1.5em;
+}
+.blog-author a{
+    color: #562EFF;
+    text-decoration: none;
+}
+.fa-star{
+    color: #FFC014;
+}
+.fa-clock{
+    color: #FF4A60;
+
+}
+#star{
+    color: #AEAEAE;
+}
+.hours{
+    width: 95px;
+    height: 30px;
+    background: #FEE5DF;
+    border-radius: 14.6913px;
+    text-align: center;
+}
+
+.courses{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.course-author{
+    text-decoration: none;
+    color: #ED6B4F;
+    font-size: 13px;
+}
+.course-rating{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
